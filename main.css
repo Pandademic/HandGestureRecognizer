@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
+h1 {
+    font-weight: bold;
+}
+.title{
+    font-family: 'Kosugi Maru', sans-serif;
+    font-weight: 300;
+}
+body{
+    text-align: center;
+    
+}
+.fancy{
+    font-family: 'Josefin Slab', serif;
+    font-style: italic;
+}
+#camera{
+    border: 10px black dashed;
+    height: 700;
+    width: 700;
+}
+.note{
+    font-family: 'Amatic SC', cursive;
+}
+.crimson{
+    font-family: 'Crimson Text', serif;
+    text-shadow: 1px;
+}

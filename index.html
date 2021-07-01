@@ -1,0 +1,38 @@
+<html>
+    <head>
+  <title>HAND GESTURE TO MEANING</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+  <!--ML5-->
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    </head>
+    <body>
+        <center>
+           <h1 class="title">HAND GESTURE TO MEANING</h1>
+           <h6 class="crimson">Using: webcam.js and Teachable Machine</h6>
+           <hr>
+           <div>
+             <p>I recognize:</p>
+             <br>
+             <p>Thumbs Up</p>
+             <br>
+             <p>Thumbs Down</p>
+             <br>
+             <p>V for victory</p>
+           </div>
+           <div id="Camera">
+
+           </div>
+           <button class="glyphicon glyphicon-camera"onclick="take_snapshot()"></button>
+           <button class="glyphicon glyphicon-check"onclick="check()"></button>
+           <span><h4 class="fancy">GESTURE:<p class="note"id="name_of_gesture">????</p></h4></span>
+           <span><h4 class="fancy">ACCUCRACY:<p class="note"id="accuracy_of_gesture">???</p></h4></span>
+          </center>
+          <script src="main.js"></script>
+    </body>
+
+</html>
