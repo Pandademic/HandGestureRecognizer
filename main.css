@@ -17,10 +17,10 @@ body{
     font-family: 'Josefin Slab', serif;
     font-style: italic;
 }
-#camera{
+#camera , #result{
     border: 10px black dashed;
-    height: 700;
-    width: 700;
+    height: 450;
+    width: 500;
 }
 .note{
     font-family: 'Amatic SC', cursive;
